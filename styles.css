@@ -1,56 +1,54 @@
 /* Estilo geral do corpo da página */
-
 body {
-background-color: #ffe6f0; /* rosa claro */
-font-family: Arial, sans-serif;
-padding: 20px;
-margin: 0;
+  background-color: #ffe6f0; /* Define a cor de fundo da página (rosa claro) */
+  font-family: Arial, sans-serif; /* Define a fonte do texto da página */
+  padding: 20px; /* Espaço interno entre o conteúdo e as bordas da página */
+  margin: 0; /* Remove qualquer espaço externo padrão do navegador */
 }
 
 /* Cabeçalho */
 header {
-background-color: #b30059; /* roxo escuro */
-color: white;
-padding: 20px;
-text-align: center;
+  background-color: #b30059; /* Cor de fundo do cabeçalho (roxo escuro) */
+  color: white; /* Cor do texto do cabeçalho */
+  padding: 20px; /* Espaço interno dentro do cabeçalho */
+  text-align: center; /* Centraliza o texto no cabeçalho */
 }
 
 /* Título principal */
 h1 {
-font-size: 32px;
-margin: 0;
+  font-size: 32px; /* Define o tamanho da fonte do título */
+  margin: 0; /* Remove margens externas do título */
 }
 
 /* Conteúdo principal */
 main {
-margin: 30px auto;
-max-width: 800px;
+  margin: 30px auto; /* Adiciona espaço em cima/baixo e centraliza na horizontal */
+  max-width: 800px; /* Define a largura máxima do conteúdo */
 }
 
 /* Parágrafos */
 p {
-font-size: 20px;
-color: #333;
-line-height: 1.6;
-margin-bottom: 15px;
+  font-size: 20px; /* Tamanho da fonte dos parágrafos */
+  color: #333; /* Cor do texto (cinza escuro) */
+  line-height: 1.6; /* Espaçamento entre as linhas do texto */
+  margin-bottom: 15px; /* Espaço abaixo de cada parágrafo */
 }
 
 /* Imagem */
 img {
-display: block;
-margin: 20px auto;
-max-width: 100%;
-border: 3px solid #b30059;
-border-radius: 10px;
+  display: block; /* Faz a imagem se comportar como bloco (permite centralizar) */
+  margin: 20px auto; /* Espaço acima/abaixo e centraliza horizontalmente */
+  max-width: 100%; /* Impede que a imagem ultrapasse a largura da tela */
+  border: 3px solid #b30059; /* Borda sólida de 3px com cor roxa */
+  border-radius: 10px; /* Arredonda os cantos da imagem */
 }
 
 /* Rodapé */
 footer {
-background-color: #f2f2f2;
-color: #555;
-text-align: center;
-padding: 15px;
-margin-top: 40px;
-font-size: 14px;
+  background-color: #f2f2f2; /* Cor de fundo clara para o rodapé */
+  color: #555; /* Cor do texto (cinza médio) */
+  text-align: center; /* Centraliza o texto no rodapé */
+  padding: 15px; /* Espaço interno do rodapé */
+  margin-top: 40px; /* Espaço acima do rodapé */
+  font-size: 14px; /* Tamanho da fonte menor para o rodapé */
 }
-
