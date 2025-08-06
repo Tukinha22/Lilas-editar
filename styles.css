@@ -1,1 +1,56 @@
+/* Estilo geral do corpo da página */
+
+body {
+background-color: #ffe6f0; /* rosa claro */
+font-family: Arial, sans-serif;
+padding: 20px;
+margin: 0;
+}
+
+/* Cabeçalho */
+header {
+background-color: #b30059; /* roxo escuro */
+color: white;
+padding: 20px;
+text-align: center;
+}
+
+/* Título principal */
+h1 {
+font-size: 32px;
+margin: 0;
+}
+
+/* Conteúdo principal */
+main {
+margin: 30px auto;
+max-width: 800px;
+}
+
+/* Parágrafos */
+p {
+font-size: 20px;
+color: #333;
+line-height: 1.6;
+margin-bottom: 15px;
+}
+
+/* Imagem */
+img {
+display: block;
+margin: 20px auto;
+max-width: 100%;
+border: 3px solid #b30059;
+border-radius: 10px;
+}
+
+/* Rodapé */
+footer {
+background-color: #f2f2f2;
+color: #555;
+text-align: center;
+padding: 15px;
+margin-top: 40px;
+font-size: 14px;
+}
 
